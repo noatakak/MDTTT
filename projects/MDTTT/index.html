@@ -3,23 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Noatak Post | MDTTT</title>
+    <title>Unity WebGL Player | MDTTT</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link href="styles/indexStyle.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="MyWebsite/index.html">home</a><li>
-          <li><a href="MyWebsite/aboutMe.html">about Me</a><li>
-          <li><a href="MyWebsite/resume.html">resumé</a><li>
-          <li><a href="MyWebsite/projects.html">projects</a><li>
-          <li><a href="MyWebsite/devlog.html">journal/devlog</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -28,12 +16,13 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
+      <div id="unity-warning"> </div>
       <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">MDTTT</div>
       </div>
     </div>
-
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -93,8 +82,8 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
 
@@ -114,13 +103,5 @@
       };
       document.body.appendChild(script);
     </script>
-
-    <footer>
-      <ul>
-        <nav>
-          <li><a href="contact.html">contact</a><li>
-        </nav>
-      </ul>
-    <footer>
   </body>
 </html>
