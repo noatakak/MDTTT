@@ -33,6 +33,10 @@ nav li {
   display: inline-block;
 }
 
+main {
+  padding-bottom: 4rem;
+}
+
 footer {
   background: CornflowerBlue;
   bottom: 0;
@@ -40,16 +44,17 @@ footer {
   font-size: 20px;
   height: 4rem;
   text-align: center;
-
+  right: 0;
+  position: absolute;
 }
 
-footer b {
+footer a {
   color: white;
   text-decoration: none;
   text-transform: lowercase;
   margin: 25px 50px;
 }
 
-b:hover {
+a:hover {
   text-decoration: underline;
 }
