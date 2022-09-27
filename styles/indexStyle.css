@@ -42,10 +42,7 @@ main .sidebar {
 .material-symbols-outlined {
   padding-bottom: 3px;
   margin-right: 30px;
-}
-
-.material-icons .a{
-
+  font-size: 36px;
 }
 
 #main {
@@ -54,11 +51,31 @@ main .sidebar {
   transition: margin-left 0.5s;
 }
 
-@media screen and (max-height: 450px) {
-  .sidebar {
-    padding-top: 15px;
-  }
-  .sidebar a {
-    font-size: 18px;
-  }
+.fa {
+  padding: 8px 4px 8px 26px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-instagram{
+  color: White;
+}
+.fa-instagram:hover{
+  color: Maroon;
+}
+
+.fa-twitter{
+  color: White;
+}
+.fa-twitter:hover{
+  color: Maroon;
+}
+
+.fa-envelope{
+  color: White;
+}
+.fa-envelope:hover{
+  color: Maroon;
 }
