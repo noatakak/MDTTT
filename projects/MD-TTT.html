@@ -1,13 +1,29 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MDTTT</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
-  <body>
+    <title>Noatak Post</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles/indexStyle.css" type="text/css" rel="stylesheet">
+  <head>
+  <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+    <script src="scripts/indexScript.js"></script>
+    <a href="./home"><span class="fa fa-home"></span>Home</a><br>
+    <a href="./aboutMe"><span class="fa fa-info-circle"></span>About Me</a><br>
+    <a href="./resume"><span class="fa fa-file"></span>Resume</a><br>
+    <a href="./projects"><span class="fa fa-code"></span>Projects</a><br>
+    <a href="./devlog"><span class="fa fa-list"></span>DevLog</a><br>
+    <div id="myContacts" class="contacts">
+      <a id="email" href="mailto: noatak.post@gmail.com" class ="fa fa-envelope"></a>
+      <a id="insta" href="https://www.instagram.com/noatak_post/" target="_blank" rel="noopener noreferrer" class ="fa fa-instagram"></a>
+      <a id="twit" href="https://twitter.com/NoatakPost" target="_blank" rel="noopener noreferrer" class ="fa fa-twitter"></a>
+    </div>
+    <div id="mysButton" class="mystery">
+      <a id="ques" href="#" class="fa fa-question-circle"></a>
+    </div>
+  </div>
+  <div id="main">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1080 height=720></canvas>
       <div id="unity-loading-bar">
@@ -103,5 +119,9 @@
       };
       document.body.appendChild(script);
     </script>
-  </body>
+
+
+
+
+  </div>
 </html>
