@@ -15,14 +15,16 @@
 .mdttt{
   width: 450px;
   background-color: SteelBlue;
+  margin: 30px;
 }
 
 .mdttt a {
-  padding: 30px;
+  padding: 20px;
   text-decoration: none;
   font-size: 25px;
   color: White;
   display: block;
+  text-align: center;
 
 }
 
