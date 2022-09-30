@@ -12,6 +12,10 @@
   color: SteelBlue;
 }
 
+.projectLinks{
+  display: inline-block;
+}
+
 .mdttt{
   width: 450px;
   background-color: SteelBlue;
@@ -31,4 +35,54 @@
 .mdttt a:hover {
   color: Maroon;
   background-color: LightSteelBlue;
+}
+
+.invadeEvade{
+  width: 450px;
+  background-color: SteelBlue;
+  margin: 30px;
+}
+
+.invadeEvade a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: White;
+  display: block;
+  text-align: center;
+
+}
+
+.invadeEvade a:hover {
+  color: Maroon;
+  background-color: LightSteelBlue;
+}
+
+.invadeEvade .fa{
+  width: 200px;
+}
+
+.fishGame{
+  width: 450px;
+  background-color: SteelBlue;
+  margin: 30px;
+}
+
+.fishGame a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: White;
+  display: block;
+  text-align: center;
+
+}
+
+.fishGame a:hover {
+  color: Maroon;
+  background-color: LightSteelBlue;
+}
+
+.fishGame .fa{
+  width: 200px;
 }
