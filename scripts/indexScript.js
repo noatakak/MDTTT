@@ -31,20 +31,3 @@ function moveSocials(){
     document.getElementById("twit").style.marginTop = "0";
   }
 }
-
-
-/*function rotateSocials(){
-  if(mini){
-    document.getElementById("email").style.marginTop = "100px"
-    document.getElementById("insta").style.marginLeft = "80px";
-    document.getElementById("insta").style.marginTop = "-65px";
-    document.getElementById("twit").style.marginLeft = "148px";
-    document.getElementById("twit").style.marginTop = "-65px";
-  }else {
-    document.getElementById("email").style.marginTop = "0"
-    document.getElementById("insta").style.marginLeft = "12px";
-    document.getElementById("insta").style.marginTop = "0";
-    document.getElementById("twit").style.marginLeft = "12px";
-    document.getElementById("twit").style.marginTop = "0";
-  }
-}*/
