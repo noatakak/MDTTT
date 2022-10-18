@@ -2,22 +2,35 @@
   width: 30%;
   margin-right: 2%;
   float: left;
-}
-
-.text{
-  width: 50%;
-  float: left;
-}
-
-.frozenText{
   position: absolute;
-  width: 50%;
 }
-.clearfix{
-  clear: both;
+
+.profile{
+  border: 5px solid SteelBlue;
+}
+
+.mountainSelfie{
+  border: 5px solid SteelBlue;
 }
 
 .adven2{
   width: 30%;
   margin-right: 2%;
+}
+
+.text{
+  width: 50%;
+  float: left;
+  padding-left: 35%;
+}
+
+.frozenText{
+  position: absolute;
+  width: 50%;
+  border: 5px solid SteelBlue;
+  padding: 1%;
+  background-color: White;
+}
+.clearfix{
+  clear: both;
 }

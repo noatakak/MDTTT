@@ -1,4 +1,11 @@
-
+.pattern{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  opacity: 0.3;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 8px ), repeating-linear-gradient( #4682B455, #4682B4 );
+}
 body{
   font-family: "Josefin", sans-serif;
 }
