@@ -1,4 +1,4 @@
-.image{
+.images{
   width: 30%;
   margin-right: 2%;
   float: left;
@@ -9,6 +9,15 @@
   float: left;
 }
 
+.frozenText{
+  position: absolute;
+  width: 50%;
+}
 .clearfix{
   clear: both;
+}
+
+.adven2{
+  width: 30%;
+  margin-right: 2%;
 }

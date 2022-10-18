@@ -1,4 +1,25 @@
-.Landscape{
-  size: 50%;
-  left: 50%;
+.title{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.image{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.directionTitle{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.directions{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: left;
 }
