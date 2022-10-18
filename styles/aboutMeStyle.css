@@ -1,32 +1,35 @@
-.images{
-  width: 30%;
-  margin-right: 2%;
-  float: left;
-  position: absolute;
+.imageGroup{
+  position: relative;
+  width: 40%;
 }
 
-.profile{
+.image{
   border: 5px solid SteelBlue;
 }
 
-.mountainSelfie{
-  border: 5px solid SteelBlue;
+.profileImg{
+  width: 50%;
 }
 
-.adven2{
-  width: 30%;
-  margin-right: 2%;
+.music1Img{
+  width: 50%;
+}
+
+.music3Img{
+  width: 50%;
+}
+
+.adven2Img{
 }
 
 .text{
-  width: 50%;
-  float: left;
-  padding-left: 35%;
-}
 
+}
 .frozenText{
-  position: absolute;
-  width: 50%;
+  position: relative;
+  width: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   border: 5px solid SteelBlue;
   padding: 1%;
   background-color: White;
