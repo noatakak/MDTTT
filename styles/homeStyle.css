@@ -25,13 +25,15 @@
   padding: 1%;
   background-color: White;
   position: absolute;
+  text-align: center;
+  width: 95%;
 }
 
 .directionTitle{
   position: absolute;
   width: 40%;
-  top: 55%;
-  margin-left: 31.5%;
+  top: 54%;
+  margin-left: 27%;
 }
 
 .dirTitleText{
@@ -39,17 +41,27 @@
   padding: 1%;
   background-color: White;
   position: absolute;
+  width: 95%;
+  text-align: center;
 }
 
 .directions{
   position: absolute;
   width: 40%;
-  top: 65%;
-  margin-left: 25.5%;
+  top: 64%;
+  margin-left: 27%;
 }
+
 .dirText{
   border: 5px solid SteelBlue;
   padding: 1%;
   background-color: White;
   position: absolute;
+  width: 95%;
+  text-align: center;
+}
+
+.textOutline{
+  position: absolute;
+  width: 95%;
 }
