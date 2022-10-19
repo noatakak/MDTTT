@@ -1,5 +1,5 @@
 .imageGroup{
-  position: relative;
+  position: absolute;
   width: 40%;
 }
 
@@ -9,31 +9,50 @@
 
 .profileImg{
   width: 50%;
+  position: absolute;
 }
 
 .music1Img{
-  width: 50%;
+  width: 47.5%;
+  position: absolute;
+  left: 55%;
 }
 
 .music3Img{
-  width: 50%;
+  width: 47.5%;
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  margin-top: 35.5%;
 }
 
 .adven2Img{
+  position: absolute;
+  margin-top: 70%;
+  width: 102.5%;
 }
 
-.text{
-
+.boxMover{
+  top: 2.5%;
+  position: absolute;
+  width: 40%;
+  margin-left: 42.5%;
 }
-.frozenText{
-  position: relative;
-  width: 45%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+
+.textOutline{
   border: 5px solid SteelBlue;
   padding: 1%;
   background-color: White;
+  height: 116vh;
+  position: absolute;
+  width: 95%;
 }
+
+.insideText{
+  position: absolute;
+  width: 95%;
+}
+
 .clearfix{
   clear: both;
 }

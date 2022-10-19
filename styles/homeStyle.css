@@ -15,6 +15,9 @@
   background-color: White;
 }
 
+.content{
+  position: absolute;
+}
 .image{
   width: 30%;
   position: relative;
