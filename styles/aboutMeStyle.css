@@ -40,15 +40,15 @@
 }
 
 .textOutline{
-  border: 5px solid SteelBlue;
-  padding: 1%;
-  background-color: White;
-  height: 116vh;
+
   position: absolute;
   width: 95%;
 }
 
 .insideText{
+  border: 5px solid SteelBlue;
+  padding: 1%;
+  background-color: White;
   position: absolute;
   width: 95%;
 }
