@@ -6,6 +6,7 @@
 .imageHolder{
   position: absolute;
   width: 30%;
+  min-height: 15%;
   margin-top: 7%;
   margin-left: 37%;
 }
@@ -21,6 +22,7 @@
 .title{
   position: absolute;
   width: 50%;
+  height: 15%;
   top: 1%;
   margin-top: 1%;
   margin-left: 29%;
