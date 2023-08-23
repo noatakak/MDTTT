@@ -1,35 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="refresh" content="0; URL=./home" />
-    <title>Noatak Post</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="styles/indexStyle.css" type="text/css" rel="stylesheet">
-  <head>
-  <div class="pattern"></div>
-  <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
-    <script src="scripts/indexScript.js"></script>
-    <a href="./home"><span class="fa fa-home"></span>Home</a><br>
-    <a href="./aboutMe"><span class="fa fa-info-circle"></span>About Me</a><br>
-    <a href="/resume/resume.pdf" target="_blank" rel="noopener noreferrer"><span class="fa fa-file"></span>Resume</a><br>
-    <a href="./projects"><span class="fa fa-code"></span>Projects</a><br>
-    <a href="./devlog"><span class="fa fa-list"></span>DevLog</a><br>
-    <div id="myContacts" class="contacts">
-      <a id="email" href="mailto: noatak.post@gmail.com" class ="fa fa-envelope"></a>
-      <a id="insta" href="https://www.instagram.com/noatak_post/" target="_blank" rel="noopener noreferrer" class ="fa fa-instagram"></a>
-      <a id="twit" href="https://twitter.com/NoatakPost" target="_blank" rel="noopener noreferrer" class ="fa fa-twitter"></a>
+<head>
+    <title>Noatak Post | Game Designer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/42ec1da782.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="starfield"></div>
+    <div class="content">
+        <div class="sun">
+            <div class="ring1"></div>
+            <div class="ring2"></div>
+            <div class="ring3"></div>
+        </div>
+        <div class="button_container">
+            <div class="portfolio_button planet" onclick="">
+                <i class="fa-regular fa-folder-open window_logo"></i>
+            </div>
+            <div class="resume_button planet" onclick="">
+                <i class="fa-regular fa-file window_logo"></i>
+            </div>
+            <div class="about_button planet" onclick="">
+                <i class="fa-regular fa-user window_logo"></i>
+            </div>
+        </div>
+        <div class="home_content">
+            <div class="title">
+                <h1>Noatak Post</h1>
+            </div>
+            <div class="img_container">
+                <div class="portrait">
+                    <img src="media\headshot.jpg" alt="Headshot Dec 2022">
+                </div>
+            </div>
+            <div class="body_text">
+                <div class="intro">
+                    <p>I am a passionate game designer and programmer as well as an energetic musician and educator. I have programming experience in C#, Java, Python, GDScript, HTML, CSS, JavaScript, R, and C++, and I have utilized tools like Godot, Unity, Unreal, RStudio, and Git. I am excited about using software and music to tell stories that inspire. </p>
+                </div>
+                <div class="directions">
+                    <p>On this website you can explore my game design portfolio, view my resume, and read a longer About Me section if you are curious about the things in my life that have led me to where I am now.</p>
+                </div>
+            </div>
+            <div class="socials">
+                <div class="email_button">
+                    <a class="fa-regular fa-envelope link email" href="mailto: noatak.post@gmail.com"></a>
+                </div>
+                <div class="itch_button">
+                    <a class="fa-brands fa-itch-io link itch" target="_blank" rel="noopener noreferrer" href="https://granitebouldergames.itch.io/"></a>
+                </div>
+                <div class="github_button">
+                    <a class="fa-brands fa-github link github" target="_blank" rel="noopener noreferrer" href="https://github.com/noatakak"></a>
+                </div>
+                <div class="twitter_button">
+                    <a class="fa-brands fa-twitter link twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/NoatakPost"></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="mysButton" class="mystery">
-      <a id="ques" href="#" class="fa fa-question-circle"></a>
-    </div>
-  </div>
-  <div id="main">
-
-
-
-
-
-  </div>
+    <script src="scripts.js"></script>
+</body>
 </html>
