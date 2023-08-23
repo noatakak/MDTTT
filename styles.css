@@ -264,7 +264,7 @@ body {
 }
 
 .planet:hover {
-    border: 1px solid white;
+    border: 3px solid white;
     color:white;
 }
 
