@@ -415,17 +415,23 @@ body {
     overflow: auto;
     width: 90%;
     height: 90%;
+    font-size: min(2.5vw,2.5vh)
 }
 
 .portfolio_scrollable img {
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
     border-radius: 5%;
-    border: 3px solid white;
+    border: 3px solid rgb(213,73,199);
+    margin-bottom: 10px;
 }
 
 .project_title, .group_size, .roles {
     text-align: center;
+}
+
+.project_title {
+    text-decoration: underline;
 }
 
 .port_images {
