@@ -128,7 +128,6 @@ window.addEventListener('resize', () => {
 
 
 function toggleVisibility(id) {
-  console.log("clicked")
   var element = document.getElementById(id);
   if (element.style.visibility == "hidden") {
       element.style.visibility = "visible";
