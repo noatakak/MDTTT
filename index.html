@@ -18,15 +18,15 @@
         </div>
         <div class="button_container">
             <div class="buttons">
-                <div class="portfolio_button planet">
+                <div class="portfolio_button planet" onclick="toggleVisibility('window_portfolio')">
                     <i class="fa-solid fa-briefcase window_logo"></i>
                     <p class="button_text portfolio_button_text">Portfolio</p>
                 </div>
-                <div class="resume_button planet">
+                <div class="resume_button planet" onclick="toggleVisibility('window_resume')">
                     <i class="fa-regular fa-file window_logo"></i>
                     <p class="button_text resume_button_text">Resume</p>
                 </div>
-                <div class="about_button planet">
+                <div class="about_button planet" onclick="toggleVisibility('window_about')">
                     <i class="fa-regular fa-user window_logo"></i>
                     <p class="button_text about_button_text">About</p>
                 </div>
@@ -59,11 +59,57 @@
                 <div class="github_button">
                     <a class="fa-brands fa-github link github" target="_blank" rel="noopener noreferrer" href="https://github.com/noatakak"></a>
                 </div>
-                <div class="twitter_button">
-                    <a class="fa-brands fa-twitter link twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/NoatakPost"></a>
+                <div class="linkedin_button">
+                    <a class="fa-brands fa-linkedin link linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/noatak-p/"></a>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="window_portfolio pop_up" id="window_portfolio">
+        <i class="fa-solid fa-xmark x" onclick="exit()"></i>
+    </div>
+    <div class="window_resume pop_up" id="window_resume">
+        <i class="fa-solid fa-xmark x" onclick="exit()"></i>
+        <object class="resume_pdf" data="media/resume.pdf" type="application/pdf">
+            <p>It appears you don't have a PDF plugin for this browser. No worries... you can <a href="media/resume.pdf">click here to download the PDF file.</a></p>
+        </object>
+    </div>
+    <div class="window_about pop_up" id="window_about">
+        <i class="fa-solid fa-xmark x" onclick="exit()"></i>
+        <div class="scrollable_content">
+            <div class="about_1">
+                <p class="about_text text_1">I was born in Kotzebue, Alaska, but spent most of my life growing up in Juneau, Alaska. In grade school I was incredibly focused on music and robotics. 
+                    I play the viola and the violin and in my freshman year of high school, I was invited to join the Juneau Symphony Orchestra. 
+                    Throughout my entire youth, I was involved with the FIRST robotics program. 
+                    I started in the FIRST Lego League (FLL) program in 1st grade, and then in high school, I joined the FIRST Tech Challenge (FTC). 
+                    In FTC, I was the captain of my team for three years, and in my third year as captain, my team became the Alaska State Champions. 
+                    We then went on to compete at the World Championships for that season, it was the first time any team from Southeast Alaska had competed at that scale.</p>
+                <img class="photo_1" src="media/personal/photo4.jpg" alt="Image 1">
+            </div>
+            <div class="about_2">
+                <img src="media/personal/photo2.jpg" alt="Image 2">
+                <p class="about_text">I currently attend Pacific Lutheran University (PLU) in Tacoma, Washington, and as of Fall 2022 I am in my fifth year of a double degree program. 
+                    My two degrees are a Bachelor of Arts in Computer Science and a Bachelor of Music in Music Education. 
+                    I expect to graduate in December of 2024 after I have completed my computer science course work, and my student-teaching for my music degree. 
+                    <br><br>
+                    I am incredibly passionate about working in video game development after I graduate. 
+                    I see video games as the perfect combination of all art forms, which include a level of audience interaction/agency that is not possible in any other media. 
+                    I love storytelling, and no medium can tell stories or create memorable experiences quite like what is possible with video games.
+                </p>
+            </div>
+            <div class="about_3">
+                <p class="about_text">Some of my biggest inspirations in terms of game design, narrative, and music include Journey (thatgamecompany), ABZU (Giant Squid), The Pathless (Giant Squid), 
+                    The Beginner's Guide (Davey Wreden), Outer Wilds (Mobius Digital), Stardew Valley (ConcernedApe), Homeworld (Relic Entertainment), Subsurface Circular (Bithell Games), 
+                    No Man's Sky (Hello Games), Portal (Valve), and The Elder Scrolls Series (Bethesda Game Studios). </p>
+                <img src="media/personal/photo3.JPG" alt="Image 3">
+            </div>
+            <div class="about_4">
+                <img src="media/personal/photo1.JPG" alt="Image 4">
+                <p class="about_text">In my free time I spend my time working on a number of different game-related projects, from participating in game jams, to making mods for Skyrim. 
+                    This year, I also organized a “long-form” game jam at my university to encourage people in all disciplines to learn about making games in a format that does not encourage crunch, but rather education and learning, as well as being able to build a final product that you can be proud of. 
+                    This long-form game jam also includes monthly showcase meetings, talks/reviews from people currently working the the game development industry.</p>
+            </div>
+          </div>
     </div>
     <script src="scripts.js"></script>
 </body>

@@ -21,7 +21,8 @@ function create_stars(){
     star.style.left = `${x}%`;
     star.style.top = `${y}%`;
     star.style.animationDuration = `${duration}s`;
-    star.style.backgroundColor = randomColor
+    star.style.backgroundColor = randomColor;
+    star.style.zIndex = -5;
 
     starfield.appendChild(star);
 }
@@ -91,14 +92,64 @@ function updateRingSize(sunDiv, planetDiv, ring) {
   ring.style.height = ring.style.width;
 }
 
-// Initial size calculation
 updateRingSize(sunDiv, portfolioDiv, ring1);
 updateRingSize(sunDiv, resumeDiv, ring2);
 updateRingSize(sunDiv, aboutDiv, ring3);
 
-// Update size whenever the window is resized
 window.addEventListener('resize', () => {
   updateRingSize(sunDiv, portfolioDiv, ring1);
   updateRingSize(sunDiv, resumeDiv, ring2);
   updateRingSize(sunDiv, aboutDiv, ring3);  
 });
+
+const window_portfolio = document.querySelector('.window_portfolio');
+const window_resume = document.querySelector('.window_resume');
+const window_about = document.querySelector('.window_about');
+const socialBox = document.querySelector('.socials');
+
+function updateWindowSize(popup) {
+  const popup_rect = popup.getBoundingClientRect();
+  const socials_rect = socialBox.getBoundingClientRect();
+
+  const distance =  socials_rect.top - popup_rect.top
+  popup.style.height = `${distance-15}px`
+}
+
+updateWindowSize(window_portfolio)
+updateWindowSize(window_resume)
+updateWindowSize(window_about)
+
+window.addEventListener('resize', () => {
+  updateWindowSize(window_portfolio)
+  updateWindowSize(window_resume)
+  updateWindowSize(window_about)
+});
+
+
+
+function toggleVisibility(id) {
+  console.log("clicked")
+  var element = document.getElementById(id);
+  if (element.style.visibility == "hidden") {
+      element.style.visibility = "visible";
+  } else {
+      element.style.visibility = "hidden";
+  }
+  if (id != "window_portfolio") {
+    document.getElementById('window_portfolio').style.visibility = "hidden";
+  }
+  if (id != "window_resume") {
+    document.getElementById('window_resume').style.visibility = "hidden";
+  }
+  if (id != "window_about") {
+    document.getElementById('window_about').style.visibility = "hidden";
+  }
+}
+
+function exit() {
+  document.getElementById('window_portfolio').style.visibility = "hidden";
+  document.getElementById('window_resume').style.visibility = "hidden";
+  document.getElementById('window_about').style.visibility = "hidden";
+}
+
+exit()
