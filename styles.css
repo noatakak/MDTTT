@@ -405,6 +405,31 @@ body {
 
 .window_portfolio {
     border: 3px solid rgb(213,73,199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio_scrollable{
+    padding: 10px;
+    overflow: auto;
+    width: 90%;
+    height: 90%;
+}
+
+.portfolio_scrollable img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5%;
+    border: 3px solid white;
+}
+
+.project_title, .group_size, .roles {
+    text-align: center;
+}
+
+.description {
+    text-align: justify;
 }
 
 .window_resume {
@@ -447,7 +472,7 @@ body {
 
 .about_1, .about_2,
 .about_3, .about_4{
-    font-size: min(2vw,2vh);
+    font-size: min(2.5vw,2.5vh);
     display: flex;
     align-items: center;
 }
