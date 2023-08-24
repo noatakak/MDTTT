@@ -361,7 +361,7 @@ body {
 .socials {
     height: 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .link {
@@ -426,6 +426,16 @@ body {
 
 .project_title, .group_size, .roles {
     text-align: center;
+}
+
+.port_images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.port_links {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .description {
