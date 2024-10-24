@@ -349,7 +349,7 @@ body {
 }
 
 .body_text {
-    font-size: min(3vw,2.5vh);
+    font-size: min(2vw,2vh);
     font-family: 'josefin_sansregular';
     text-align: justify;
     color: white;
